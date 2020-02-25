@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Smash Innovations'
   s.source           = { :git => 'https://github.com/FeracodeBR/jitsi-meet-ios-sdk-releases.git', :branch => 'master' }
 
-  s.platform         = :ios, '10.0'
+  s.platform         = :ios, '9.0'
 
   s.vendored_frameworks = 'Frameworks/JitsiMeet.framework', 'Frameworks/WebRTC.framework'
 end
