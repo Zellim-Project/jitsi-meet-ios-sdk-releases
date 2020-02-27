@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SmashMeetSDK'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'Smash Meet iOS SDK'
   s.homepage         = 'https://github.com/FeracodeBR/jitsi-meet-ios-sdk-releases'
   s.license          = 'Apache 2'
