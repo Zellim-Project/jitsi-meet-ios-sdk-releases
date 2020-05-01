@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SmashMeetSDK'
-  s.version          = '1.0.21'
+  s.version          = '1.0.22'
   s.summary          = 'Smash Meet iOS SDK'
   s.homepage         = 'https://github.com/FeracodeBR/jitsi-meet-ios-sdk-releases'
   s.license          = 'Apache 2'
@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, '11.0'
 
-  s.vendored_frameworks = 'Frameworks/ios11/JitsiMeet.framework', 'Frameworks/ios11/WebRTC.framework'
+  s.vendored_frameworks = 'Frameworks/release/JitsiMeet.framework', 'Frameworks/release/WebRTC.framework'
 end
