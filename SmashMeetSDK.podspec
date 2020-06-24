@@ -9,6 +9,5 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, '11.0'
 
-#   s.vendored_frameworks = 'Frameworks/release/JitsiMeet.framework', 'Frameworks/release/WebRTC.framework'
   s.vendored_frameworks = 'Frameworks/release/JitsiMeet.framework'
 end
